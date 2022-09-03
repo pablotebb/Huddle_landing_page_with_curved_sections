@@ -24,19 +24,6 @@ The designs were created to the following widths:
 
 ### Headings
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
-
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-
-<script src="https://kit.fontawesome.com/003962264f.js" crossorigin="anonymous"></script>
-
-<div class="newsletter-contact__social-container">
-    <i class="newsletter-contact__social-icon fa-brands fa-facebook-square fa-xl" width="30"></i>
-    <i class="newsletter-contact__social-icon fa-brands fa-instagram fa-xl"></i>
-    <i class="newsletter-contact__social-icon fa-brands fa-twitter-square fa-xl"></i>
-</div>
-
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 700
 

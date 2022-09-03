@@ -11,7 +11,10 @@
       href="./images/favicon-32x32.png"
     />
     <!-- Font awesome  -->
-    <script src="https://kit.fontawesome.com/003962264f.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/003962264f.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Own css -->
     <link rel="stylesheet" href="./styles.css" />
@@ -23,16 +26,19 @@
     <main class="main-container">
       <!-- NAV -->
       <nav class="nav-upper">
-        <img class="nav-uppe__logo" src="../Images/logo.svg" alt="logo icon" />
-        <input type="button" class="nav-upper__button">Try it free</input>
+        <img class="nav-upper__logo" src="../Images/logo.svg" alt="logo icon" />
+
+        <input class="nav-upper__button" value="Try it free" />
       </nav>
       <!-- HEADER -->
       <header class="header-web">
-        <h1 class="header-web__title">Build The Community Your Fans Will Love</h1>
+        <h1 class="header-web__title">
+          Build The Community Your Fans Will Love
+        </h1>
         <p class="header-web__description">
           Huddle re-imagines the way we build communities. You have a voice, but
-          so does your audience. Create connections with your users as you engage
-          in genuine discussion.
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
         </p>
         <button class="header-web__button">Get Started For Free</button>
         <img
@@ -49,7 +55,7 @@
           <p>Communities Formed</p>
         </div>
         <div class="section-stats__messages">
-          <img src="./images/icon-messages" alt="icon communities" />
+          <img src="./images/icon-messages.svg" alt="icon communities" />
           <p>2.7m+</p>
           <p>Messages Sent</p>
         </div>
@@ -64,9 +70,9 @@
         <div>
           <h2 class="section-together__title">Grow Together</h2>
           <p class="section-together__description">
-            Generate meaningful discussions with your audience and build a strong,
-            loyal community. Think of the insightful conversations you miss out on
-            with a feedback form.
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
           </p>
         </div>
       </section>
@@ -81,7 +87,8 @@
           <h2 class="section-converstations__title">Flowing Conversations</h2>
           <p class="section-converstations__description">
             You wouldn't paginate a conversation in real life, so why do it
-            online? Our threads have just-in-time loading for a more natural flow.
+            online? Our threads have just-in-time loading for a more natural
+            flow.
           </p>
         </div>
       </section>
@@ -96,50 +103,72 @@
           <h2 class="section-users__title">Your Users</h2>
           <p class="section-users__description">
             It takes no time at all to integrate Huddle with your app's
-            authentication solution. This means, once signed in to your app, your
-            users can start chatting immediately.
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
           </p>
         </div>
       </section>
       <!-- SECTION BUILD COMMUNITY -->
       <section class="section-build-community">
-        <h3 class="section-build-community__title">Ready To Build Your Community?</h3>
-        <input class="section-build-community__button" type="button" value="Get Started For Free">
+        <h3 class="section-build-community__title">
+          Ready To Build Your Community?
+        </h3>
+        <input
+          class="section-build-community__button"
+          type="button"
+          value="Get Started For Free"
+        />
       </section>
       <!-- FOOTER -->
       <footer class="footer-web">
+        <!-- SECTION FOOTER NEWSLETTER -->
         <section class="section-footer-newsletter">
           <div>
-            <h2  class="section-footer-newsletter__title">Newsletter</h2>
-            <p  class="section-footer-newsletter__description">To recieve tips on how to grow your community, sign up to our
-      weekly newsletter. We’ll never send you spam or pass on your email address</p>
-            <form  class="section-footer-newsletter__form" action="#">
-              <input type="text">
+            <h2 class="section-footer-newsletter__title">Newsletter</h2>
+            <p class="section-footer-newsletter__description">
+              To recieve tips on how to grow your community, sign up to our
+              weekly newsletter. We’ll never send you spam or pass on your email
+              address
+            </p>
+            <form class="section-footer-newsletter__form" action="#">
+              <input id="form_input" type="text" />
+              <div class="error"></div>
             </form>
           </div>
           <div>
-            <input  class="section-footer-newsletter__button" type="button" value="Subscribe">
+            <input
+              id="form_button"
+              class="section-footer-newsletter__button"
+              type="button"
+              value="Subscribe"
+            />
           </div>
         </section>
+        <!-- SECTION FOOTER SOCIAL LINKS -->
         <section class="section-footer-social-links">
-            <img class="section-footer-social-links__img" src="./images/logo.svg" alt="logo icon">
-            <p class="section-footer-social-links__description"> Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-      vestibulum a, ultrices quis sem.</p>
-            <div class="section-footer-social-links__phone">
-              <img src="./images/icon-phone.svg" alt="icon-phone">
-              <a href="#"> Phone: +1-543-123-4567</a>
-            </div>
-            <div class="section-footer-social-links__email">
-              <img src="./images/icon-email.svg" alt="icon-email">
-              <a href="#">example@huddle.com</a>
-            </div>
-            <div class="section-footer-social-links__social-links">
-              <i class="fa-brands fa-facebook-square fa-xl" width="30"></i>
-              <i class="fa-brands fa-instagram fa-xl"></i>
-              <i class="fa-brands fa-twitter-square fa-xl"></i>
-            </div>
-        </section>
+          <img
+            class="section-footer-social-links__img"
+            src="./images/logo_2.svg"
+            alt="logo icon"
+          />
+          <p class="section-footer-social-links__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+          </p>
+          <div class="section-footer-social-links__phone">
+            <img src="./images/icon-phone.svg" alt="icon-phone" />
+            <a href="#"> Phone: +1-543-123-4567</a>
+          </div>
+          <div class="section-footer-social-links__email">
+            <img src="./images/icon-email.svg" alt="icon-email" />
+            <a href="#">example@huddle.com</a>
+          </div>
+          <div class="section-footer-social-links__social-links">
+            <i class="fa-brands fa-facebook-square fa-xl" width="30"></i>
+            <i class="fa-brands fa-instagram fa-xl"></i>
+            <i class="fa-brands fa-twitter-square fa-xl"></i>
+          </section>
+          </div>
       </footer>
     </main>
 
@@ -152,5 +181,8 @@
         >. Coded by <a href="#" target="_blank">Pablo Belda</a>.
       </p>
     </aside>
+
+    <!-- SCRIPT JS  -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
