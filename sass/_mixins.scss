@@ -102,7 +102,7 @@
 @mixin structure-section-with-picture($font-size-description: unset) {
   margin: 230px 0 190px;
   &__img {
-    width: 100%;
+    width: 80vw;
   }
   &__title {
     font-size: 1.2em;
@@ -124,11 +124,15 @@
   $font-size-description: unset
 ) {
   @media (min-width: variables.$Width-media) {
+    // border: 1px solid red;
     margin: 300px 0 180px;
     display: flex;
     flex-direction: $direction;
     align-items: center;
     text-align: left;
+    &__img {
+      width: 30vw;
+    }
     &__title {
       font-size: 2em;
       font-weight: 700;
